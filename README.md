@@ -18,11 +18,13 @@ All models share the same tokenizer: [`HooshvareLab/gpt2-fa`](https://huggingfac
 ## Project Structure
 
 ```
-├── 01_svm.ipynb                    # SVM training notebook
-├── 02_cnn.ipynb                    # Dilated Causal CNN training notebook
-├── 03_lstm.ipynb                   # LSTM training notebook
-├── 04_transformer.ipynb            # GPT-style Transformer training notebook
-└── inference.ipynb      # Run all 4 models — no training required
+├── notebooks/
+│   ├── 01_svm.ipynb                # SVM training notebook
+│   ├── 02_cnn.ipynb                # Dilated Causal CNN training notebook
+│   ├── 03_lstm.ipynb               # LSTM training notebook
+│   └── 04_transformer.ipynb        # GPT-style Transformer training notebook
+├── demo/
+│   └── inference.py                # Run all 4 models — no training required
 ```
 
 ---
